@@ -3,31 +3,39 @@ import { Github, ExternalLink } from "lucide-react";
 import projectWeather from "@/assets/project-weather.jpg";
 import projectEcommerce from "@/assets/project-ecommerce.jpg";
 import projectTodo from "@/assets/project-todo.jpg";
+import projectinscription from "@/assets/inscription.jpg";
 
 const projects = [
   {
-    title: "FlutterWeather",
-    description: "Application météo en temps réel avec géolocalisation, animations fluides et prévisions sur 7 jours. Intégration de l'API OpenWeatherMap.",
+    title: "PokeDex",
+    description: "Application de recherche de pokémons avec détails, images, statistiques et crie. Connectées à l'API PokeAPI.",
     image: projectWeather,
     techs: ["Flutter", "Dart", "Provider", "REST API"],
-    github: "https://github.com",
-    learned: "Gestion d'APIs, géolocalisation, animations custom"
+    github: "https://github.com/Jimy-ibimi/pokedex",
+    learned: "Gestion d'APIs, gestion d'état, animations custom"
   },
   {
-    title: "ShopFlutter",
-    description: "E-commerce mobile avec catalogue produits, panier, favoris et système de paiement simulé. Architecture MVVM.",
+    title: "Devmoi",
+    description: "Application de gestion des établissements commerciaux. Permet aux utilisateurs de consulter les établissements, de s'inscrire et  de creer des établissements. vous pouvez gerer les établissements, les utilisateurs comme administrateur en commençant par la création d'un compte administrateur cela vous permettra d'accéder à des fonctionnalités avancées de gestion des établissements et des utilisateurs. Vous pourrez créer, modifier et supprimer des établissements, ainsi que gérer les utilisateurs associés à ces établissements comme par exemple un caissier. Connectée à Firebase pour l'authentification et la base de données.",
     image: projectEcommerce,
-    techs: ["Flutter", "Firebase", "Riverpod", "Stripe"],
-    github: "https://github.com",
+    techs: ["Flutter", "Firebase", "Provider"],
+    github: "https://github.com/Jimy-ibimi/devmoi_code_source",
     learned: "Architecture MVVM, Firebase Auth & Firestore"
   },
   {
-    title: "TaskMaster",
-    description: "Application de gestion de tâches avec catégories, rappels, mode sombre et synchronisation cloud.",
+    title: "todolist-sqlite",
+    description: "Application de gestion de tâches avec catégories.",
     image: projectTodo,
-    techs: ["Flutter", "SQLite", "Bloc", "Notifications"],
-    github: "https://github.com",
+    techs: ["Flutter", "SQLite", "Provider"],
+    github: "https://github.com/Jimy-ibimi/todolist-sqlite",
     learned: "Stockage local, notifications push, Bloc pattern"
+  },{
+    title: "inscription",
+    description: "Application de gestion des inscriptions des étudiants a l'université en ligne. Permet aux étudiants de s'inscrire en ligne, de consulter les sections disponibles et de suivre l'état de leur inscription. Connectée à Supabase pour le stockage des données. L'application offre également une interface d'administration pour gérer les sections, les inscriptions et les utilisateurs.",
+    image: projectinscription,
+    techs: ["Flutter", "SQLite", "Provider"],
+    github: "https://github.com/Jimy-ibimi/inscription",
+    learned: "Stockage en cloud, gestion des données image, authentification avec Supabase, gestion des rôles (étudiant, administrateur), gestion des sections et des inscriptions"
   },
 ];
 

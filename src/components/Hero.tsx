@@ -34,10 +34,10 @@ const Hero = () => {
         >
           <p className="font-mono text-sm text-primary tracking-widest uppercase">Salut, je suis</p>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            Ahmed <span className="text-gradient">Benali</span>
+            Jimmy <span className="text-gradient">Ibimi</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-xl mx-auto">
-            Développeur <span className="text-gradient">Flutter</span> Junior passionné par la création d'applications mobiles élégantes
+            Développeur <span className="text-gradient">Flutter</span>passionné par la création d'applications mobiles élégantes
           </p>
         </motion.div>
 
@@ -47,15 +47,15 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="flex gap-4"
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/Jimy-ibimi" target="_blank" rel="noopener noreferrer"
             className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors hover:shadow-glow">
             <Github className="w-5 h-5" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+          <a href="https://linkedin.com/in/jimy-ibimi-1b992936b" target="_blank" rel="noopener noreferrer"
             className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors hover:shadow-glow">
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="mailto:ahmed.benali@email.com"
+          <a href="mailto:ibimidevcontact@gmail.com?subject=Sujet%20de%20l'email&body=Bonjour,%0D%0A" 
             className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors hover:shadow-glow">
             <Mail className="w-5 h-5" />
           </a>

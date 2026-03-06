@@ -26,8 +26,7 @@ const About = () => {
           </div>
 
           <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-            Développeur Flutter junior passionné par le développement mobile, je suis diplômé en informatique et
-            actuellement en quête de ma première expérience professionnelle. Autodidacte et curieux, j'ai développé
+            Développeur Flutter passionné par le développement mobile, je suis diplômé en informatique. Autodidacte et curieux, j'ai développé
             plusieurs projets personnels qui m'ont permis de maîtriser les fondamentaux de Flutter/Dart,
             la gestion d'état, et l'intégration d'APIs REST.
           </p>

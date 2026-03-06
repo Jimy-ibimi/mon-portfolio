@@ -18,7 +18,7 @@ const Index = () => {
       <Contact />
       <footer className="py-8 text-center border-t border-border">
         <p className="text-sm text-muted-foreground font-mono">
-          © 2024 Ahmed Benali — Fait avec <span className="text-primary">Flutter</span> & passion
+          © 2026 Jimmy Ibimi — Fait avec <span className="text-primary">Flutter</span> & passion
         </p>
       </footer>
     </div>

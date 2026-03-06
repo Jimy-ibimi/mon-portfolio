@@ -5,24 +5,18 @@ const formations = [
   {
     icon: GraduationCap,
     title: "Licence en Informatique",
-    institution: "Université des Sciences et Technologies",
-    period: "2021 – 2024",
+    institution: "institut supérieur de statistique de kinshasa (ISS/KIN) – RDC",
+    period: "2022 – 2025",
     description: "Formation complète en algorithmique, POO, bases de données et développement mobile.",
   },
   {
     icon: Award,
     title: "Certification Flutter & Dart",
-    institution: "Udemy – Maximilian Schwarzmüller",
-    period: "2024",
+    institution: "linkedin learning",
+    period: "2025",
     description: "Formation complète Flutter : widgets, navigation, state management, Firebase, REST APIs.",
   },
-  {
-    icon: BookOpen,
-    title: "Google Developer Essentials",
-    institution: "Google – Coursera",
-    period: "2024",
-    description: "Fondamentaux du développement Android et bonnes pratiques Material Design.",
-  },
+  
 ];
 
 const Formation = () => {

@@ -7,7 +7,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    window.location.href = `mailto:ahmed.benali@email.com?subject=Contact Portfolio - ${formData.name}&body=${formData.message}`;
+    window.location.href = `mailto:ibimidevcontact@gmail.com?subject=Contact Portfolio - ${formData.name}&body=${formData.message}`;
   };
 
   return (
@@ -38,7 +38,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">ahmed.benali@email.com</p>
+                  <p className="font-medium">ibimidevcontact@gmail.com</p>
                 </div>
               </div>
 
@@ -48,14 +48,11 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Localisation</p>
-                  <p className="font-medium">Alger, Algérie</p>
+                  <p className="font-medium">RDC, Kinshasa</p>
                 </div>
               </div>
 
-              <button className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-primary font-semibold text-primary-foreground hover:opacity-90 transition-opacity">
-                <Download className="w-4 h-4" />
-                Télécharger mon CV
-              </button>
+              
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">
