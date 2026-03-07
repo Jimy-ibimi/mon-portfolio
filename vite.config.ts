@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  base: 'https://jimy-ibimi.github.io/flutter-dev-showcase/',
+  base: '/flutter-dev-showcase/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
